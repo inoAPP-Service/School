@@ -1,0 +1,30 @@
+<ion-header>
+    <ion-navbar color='primary'>
+        <ion-title>{{NombreUsuario}}</ion-title>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-list>
+        <ion-item text-center>
+            <!---->
+            <ion-img class='ImangenLo' width='200' height='90'  src="../../assets/imgs/Prueba.jpg" ></ion-img>
+        </ion-item>
+        <ion-item text-center>
+            <ion-icon name="person" item-left></ion-icon>
+            <ion-input type="text" placeholder='Usuario'></ion-input>
+            <!--<ion-input formControlName="email" type="text" placeholder="Email"></ion-input>-->
+        </ion-item>
+        <ion-item>
+            <ion-icon name="key" item-left></ion-icon>
+            <ion-input type="password" placeholder='password'></ion-input>
+            <!--<ion-input formControlName="password" type="password" placeholder="Password"></ion-input>-->
+        </ion-item>
+    </ion-list>
+    <ion-item text-center>
+            <button ion-button secondary (click)="goToHome()">ingresar</button>
+    </ion-item>
+
+
+</ion-content>
+
