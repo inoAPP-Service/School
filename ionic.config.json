@@ -1,7 +1,0 @@
-{
-  "name": "Login21",
-  "integrations": {
-    "cordova": {}
-  },
-  "type": "ionic-angular"
-}
